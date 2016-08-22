@@ -16,8 +16,8 @@
 
 ## 使用方法
 1. `git clone https://github.com/fifilyu/fast-dns-lookup /data/web/fast-dns-lookup`
-2. `git submodule init`
-3. `cd /data/web/fast-dns-lookup`
+2. `cd /data/web/fast-dns-lookup`
+3. `git submodule init`
 4. `pecl install redis`
 5. `pip3 install -r requirements.txt`
 6. `nohup python3 /data/web/fast-dns-lookup/agent.py &`
