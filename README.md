@@ -44,8 +44,9 @@ Nginx配置示例：
             fastcgi_index  index.php;
         }
     }
-    
-8. 访问 `http://localhost:8080`
+
+
+最后，即可访问 `http://localhost:8080`
 
 
 ## 目录结构
