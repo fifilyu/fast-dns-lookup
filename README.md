@@ -18,10 +18,11 @@
 1. `git clone https://github.com/fifilyu/fast-dns-lookup /data/web/fast-dns-lookup`
 2. `cd /data/web/fast-dns-lookup`
 3. `git submodule init`
-4. `pecl install redis`
-5. `pip3 install -r requirements.txt`
-6. `nohup python3 /data/web/fast-dns-lookup/agent.py &`
-7. 在Apache Httpd或者Ningx中配置vhost，并重启Web服务器或重载配置
+4. `git submodule update`
+5. `pecl install redis`
+6. `pip3 install -r requirements.txt`
+7. `nohup python3 /data/web/fast-dns-lookup/agent.py &`
+8. 在Apache Httpd或者Ningx中配置vhost，并重启Web服务器或重载配置
 
 Apache Httpd配置示例：
 
