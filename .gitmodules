@@ -1,0 +1,3 @@
+[submodule "php-domain-name"]
+	path = php-domain-name
+	url = https://github.com/fifilyu/php-domain-name.git

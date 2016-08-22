@@ -1,0 +1,2 @@
+--index https://pypi.douban.com/simple/
+redis; sys_platform == 'linux'

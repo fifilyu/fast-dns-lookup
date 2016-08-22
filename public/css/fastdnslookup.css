@@ -1,0 +1,36 @@
+title, head, body {
+    font-family: "Times New Roman", "Microsoft YaHei", "微软雅黑", STXihei, "华文细黑", "DejaVu Sans",
+    "文泉驿等宽微米黑", Serif;
+}
+
+table, caption, td, th {
+    border: 1px solid black;
+}
+
+table, td, th {
+    text-align: left;
+}
+
+td {
+    font-size: small;
+}
+
+.domain_td {
+    text-align: right;
+}
+
+.results {
+    color: green;
+}
+
+.unknown_results {
+    color: black;
+}
+
+.failed_results {
+    color: red;
+}
+
+.unknown_region {
+    background: #f2dede;
+}
